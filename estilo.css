@@ -1,0 +1,21 @@
+#exemplo{
+    width:100px; 
+    height:100px;  
+    margin:20px; 
+    border:1px solid rgb(173, 36, 36);
+}
+.verde{
+    background-color:green;
+}
+.vermelho{
+    background-color:red;
+}
+.roxo{
+    background-color: purple;
+}
+.amarelo{
+    background-color:yellowgreen;
+}
+body{
+    background-color:gainsboro;
+}
