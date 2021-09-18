@@ -25,3 +25,29 @@ function vermelho(){
     document.querySelector('#exemplo').classList.remove('roxo');
     document.querySelector('#exemplo').classList.add('vermelho');
 }
+
+var nome = "Henry Hosken";
+var idade = 18;
+var salvo = true; 
+var cidade;
+var tipo = typeof idade;
+
+console.log(tipo);
+
+//comentario simples de uma linha;
+/*Comentario avançando podendo conter mais de uma linha de escrita */
+
+function alterar() {
+    document.getElementById("titulo").innerHTML = titulo;
+    document.getElementById("campo").value = titulo;
+}
+
+function somar (x, y, z) {
+    let total = x + y / z;
+    return total;
+}
+var resultado = somar(10, 15, 5);
+
+console.log(resultado);
+
+
