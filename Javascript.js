@@ -50,4 +50,7 @@ var resultado = somar(10, 15, 5);
 
 console.log(resultado);
 
+function trocarimagem(filename) {
+    document.querySelector('.imagem').setAttribute('src', 'imagens/'+filename);
+}
 
