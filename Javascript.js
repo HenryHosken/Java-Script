@@ -50,7 +50,13 @@ var resultado = somar(10, 15, 5);
 
 console.log(resultado);
 
-function trocarimagem(filename) {
+function trocarimagem(filename, carname) {
     document.querySelector('.imagem').setAttribute('src', 'imagens/'+filename);
+    document.querySelector('.imagem').setAttribute('data-car', carname);
+}
+
+function PegarCarro(){
+    let car = document.querySelector('.imagem').getAttribute('data-car');
+    alert ("O carro"+ " " +  car  + " "+ "foi selecionado");
 }
 
