@@ -38,7 +38,7 @@ body{
 }
 .texto {
     text-align:justify;
-    width: 500px;
+    width: 600px;
     height: 200px;
     overflow: auto;
     background-color:gainsboro;
