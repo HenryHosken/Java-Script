@@ -59,4 +59,25 @@ function PegarCarro(){
     let car = document.querySelector('.imagem').getAttribute('data-car');
     alert ("O carro"+ " " +  car  + " "+ "foi selecionado");
 }
+//funcionalidade para usar scroll suave para voltar pagina
+function SubirBotao() {
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+    });
+}
+
+function DecidirBotao() {
+    if(window.scrollY === 0) {
+         // Ocultar botao
+         document.querySelector('.scrollbutton').style.display = 'none';
+    }
+    else{
+         // Mostar botao
+         document.querySelector('.scrollbutton').style.display = 'block';
+     }
+    }
+    
+window.addEventListener('scroll', DecidirBotao);
 
