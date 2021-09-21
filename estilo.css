@@ -47,3 +47,6 @@ body{
     padding:2px;
     border:2px solid cornflowerblue;
 }
+#botao {
+    cursor: pointer;
+}
